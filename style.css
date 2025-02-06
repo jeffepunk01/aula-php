@@ -1,0 +1,150 @@
+/* Não pode criar, editar nem carregar conteúdo … Não tem armazenamento suficiente para guardar conteúdo no Drive, fazer cópias de segurança para o Google Fotos nem usar o Gmail. Obtenha 30 GB de armazenamento por R$ 4,50 R$ 1,00/mês durante 3 meses. */
+/* Define rolagem suave para links âncora */
+
+/* Estilos básicos */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4; /* Cor de fundo padrão */
+}
+
+/* Cabeçalho */
+header {
+  background-image: url("https://via.placeholder.com/1200x500"); /* URL para a imagem de fundo */
+  background-size: cover;
+  background-position: center;
+  color: #070101;
+  text-align: center;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; /* Centraliza o texto verticalmente */
+}
+
+/* Navegação */
+nav {
+  background: #555;
+  color: #fff;
+  text-align: center;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  display: inline-block; /* Alinha os itens horizontalmente */
+  margin-right: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  padding: 10px 15px;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+  background-color: #777; /* Efeito hover para links */
+}
+
+/* Conteúdo Principal */
+main {
+  display: flex;
+  flex-direction: column; /* Organiza o conteúdo principal em coluna */
+  justify-content: center; /* Centraliza o conteúdo verticalmente */
+  align-items: center; /* Centraliza o conteúdo horizontalmente */
+  padding: 20px;
+  margin: 20px 0;
+  color: #333; /* Cor do texto principal */
+  background: transparent; /* Remove a cor de fundo */
+}
+
+/* Centralização da Galeria */
+#gallery {
+  display: flex; /* Define o layout como flexbox */
+  flex-direction: column; /* Organiza os elementos verticalmente */
+  justify-content: center; /* Centraliza os elementos verticalmente */
+  align-items: center; /* Centraliza os elementos horizontalmente */
+  text-align: center; /* Centraliza o texto */
+  padding: 20px;
+}
+
+.gallery-container {
+  display: flex; /* Define layout como flexbox */
+  justify-content: center; /* Centraliza as imagens horizontalmente */
+  flex-wrap: wrap; /* Permite que as imagens quebrem linha, se necessário */
+  gap: 20px; /* Espaçamento entre as imagens */
+}
+
+/* Estilo das imagens */
+#gallery img {
+  width: 100%; /* Largura responsiva */
+  max-width: 250px; /* Tamanho máximo das imagens */
+  height: auto; /* Mantém a proporção das imagens */
+  border-radius: 8px; /* Bordas arredondadas nas imagens */
+  transition: transform 0.3s; /* Efeito de transição */
+}
+
+#gallery img:hover {
+  transform: scale(1.1); /* Efeito de zoom ao passar o mouse */
+}
+
+/* Estilo das Tabelas */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  background: #fff;
+  color: #333;
+}
+
+table,
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+
+th {
+  background: #333;
+  color: #fff;
+}
+
+td {
+  text-align: center;
+}
+
+/* Rodapé */
+footer {
+  background: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+footer nav ul {
+  padding: 0;
+  margin: 0;
+}
+
+footer nav ul li {
+  display: inline-block;
+  margin-right: 15px;
+}
+
+footer nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+footer p {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #ccc;
+}
